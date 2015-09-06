@@ -1,0 +1,35 @@
+2015-09-06  Avraham Lembke <blambi@chebab.com>
+	* Updated all copyright texts to my primary first name.
+	* Released: v0.0.9
+
+2009-11-14  Avraham Lembke  <blambi@chebab.com>
+	* bost.c (check_host): Fixed segfaults on non-existing DNS-names.
+
+2008-09-04  Avraham Lembke <blambi@chebab.com>
+	* Released: v0.0.6
+
+2008-08-05  Avraham Lembke <blambi@chebab.com>
+	* Fixed: somewhat better CIDR support
+
+2008-08-03  Avraham Lembke <blambi@chebab.com>
+	* Licence: upgraded to GPL v3
+	* Fixed: Now using stdbool.h instead of defined true and false
+	* Added: Some support for CIDR (up to /24)
+
+2007-02-12  Avraham Lembke <blambi@chebab.com>
+	* Fixed: ported option parsing to getopt
+	* Added: Initial Support for subnet/range checking (only /24 supported)
+	* Released: v0.0.4
+
+2007-01-25  Avraham Lembke <blambi@chebab.com>
+	* Added: double checking ( option -d )
+	* Added: Some better option parsing
+	* Released: v0.0.3
+
+2006-09-15  Avraham Lembke <blambi@chebab.com>
+	* Added: support for reverse DNS (ip -> hostname)
+	* Fixed: some segfaulting (forgot to check if it the hostent became a NULL)
+	* Released: v0.0.2
+
+2006-09-02  Avraham Lembke <blambi@chebab.com>
+	* Released: v0.0.1
